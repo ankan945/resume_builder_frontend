@@ -1,0 +1,31 @@
+/* Navbar styles */
+.navbar {
+    padding: 20px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: yellow;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #46146f;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      border-color: #fff;
+    }
+  }
+  

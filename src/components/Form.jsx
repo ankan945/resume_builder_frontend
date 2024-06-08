@@ -73,12 +73,12 @@ const Form = () => {
   const handleDownloadPdf = async () => {
     try {
       // Step 1: Create the PDF
-      const createResponse = await axios.post("https://resume-builder-backend-4-owxw.onrender.com/create-pdf", formData);
+      const createResponse = await axios.post("https://resume-builder-backend-5.onrender.com/create-pdf", formData);
       
       // Check if PDF creation was successful
       if (createResponse.status === 200) {
         // Step 2: Fetch the created PDF
-        const fetchResponse = await axios.get("https://resume-builder-backend-4-owxw.onrender.com/fetch-pdf", {
+        const fetchResponse = await axios.get("https://resume-builder-backend-5.onrender.com/fetch-pdf", {
           responseType: "blob",
         });
   
